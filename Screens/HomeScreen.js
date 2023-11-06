@@ -21,6 +21,7 @@
           <Text style={{ color: 'white' }}>.</Text>
         </TouchableOpacity>
       </View>
+      <TouchableOpacity>
       <View style={{ padding: 10 }}>
         <View style={{ width: 300, height: 250, borderWidth: 1, borderColor: 'black', borderRadius: 40 }}>
         <ScrollView contentContainerStyle={{ flex: 1, justifyContent: 'flex-end', padding:20 }}>
@@ -33,6 +34,7 @@
           </ScrollView>
         </View>
       </View>
+      </TouchableOpacity>
       <View style={{ padding: 10 }}>
         <TextInput
           placeholder="Cauta Autobuze"
@@ -40,26 +42,27 @@
         />
       </View>
       <ScrollView>
+        <TouchableOpacity>
         <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: 20 }}>
           <FontAwesome name="bus" size={30} color="#114287" />
           <Text>Nume Statie</Text>
           <View><Text>timp</Text></View>
         </View>
+        </TouchableOpacity>
+        <TouchableOpacity>
         <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: 20 }}>
           <FontAwesome name="bus" size={30} color="#114287" />
           <Text>Nume Statie</Text>
           <View><Text>timp</Text></View>
         </View>
+        </TouchableOpacity>
+        <TouchableOpacity>
         <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: 20 }}>
           <FontAwesome name="bus" size={30} color="#114287" />
           <Text>Nume Statie</Text>
           <View><Text>timp</Text></View>
         </View>
-        <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: 20 }}>
-          <FontAwesome name="bus" size={30} color="#114287" />
-          <Text>Nume Statie</Text>
-          <View><Text>timp</Text></View>
-        </View>
+        </TouchableOpacity>
       </ScrollView>
     </View>
     );
